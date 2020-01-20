@@ -117,3 +117,8 @@ venv.bak/
 
 
 *.log
+.vs/ProjectSettings.json
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/Draft/v16/.suo
+.vs/Draft/v16/TestStore/0/000-0000.testlog
