@@ -4,7 +4,7 @@ This is a websocket based draft simulator written in python.
 
 ```
 docker build -t legiondraft .
-docker run --name=vaindraft -d -p 8888:8888 legiondraft
+docker run --name=legiondraft -d -p 8888:8888 legiondraft
 ```
 
 ## Heroku 
