@@ -5,7 +5,7 @@ class MainHandlerTest(BaseTestCase):
         data = self.queue.get()                                                                                                  
         url = "http://localhost:%s" % (data['port'])
         self.driver.get(url)                                                                                       
-        self.assertEqual("Vaindraft", self.driver.title)
+        self.assertEqual("LegionDraft", self.driver.title)
 
         submit = self.wait_for_element("submit")
         submit.click()

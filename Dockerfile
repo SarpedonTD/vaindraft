@@ -1,5 +1,5 @@
 FROM python:3
-MAINTAINER Shiqan
+MAINTAINER SarpedonTD
 
 WORKDIR /usr/src/app
 

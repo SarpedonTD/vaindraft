@@ -78,6 +78,15 @@ class DraftState():
         return self.join_status
 
     def get_heroes(self):
+        # try:
+        #     filter = self.style[self.turn]['typeFilter']
+        # except:
+        #     filter = None
+        # if not filter:
+        #     heros = self.heroes
+        # if filter:
+        #     heros = [hero for hero in self.heroes if hero["type"] == filter]
+        # return heros
         return self.heroes
 
     def get_style(self):
@@ -267,7 +276,11 @@ class DraftHandler(CustomHandler):
 
         room, role = decrypted.split("|")
         draft_state = draft_states[room]
-        self.render("draft.html", dark=self.get_theme(), hash=hash, role=role, 
+        self.render(
+            "draft.html",
+            dark=self.get_theme(),
+            hash=hash,
+            role=role, 
             team_blue=draft_state.get_team_blue(), 
             team_red=draft_state.get_team_red(), 
             draft_order=draft_state.get_style(), 

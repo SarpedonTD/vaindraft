@@ -1,0 +1,632 @@
+[
+    {
+        "name": "militant",
+        "faction": "nod",
+        "cost": 10,
+        "type": "barracks",
+        "category": "core",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/3/3e/CNCRiv_Militant.png/150px-CNCRiv_Militant.png?version=0616376349883e64492e0ba56afbf780"
+    },
+    {
+        "name": "laser squad",
+        "faction": "nod",
+        "cost": 20,
+        "type": "barracks",
+        "category": "core",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/4/41/CNCRiv_Laser_Squad.png/150px-CNCRiv_Laser_Squad.png?version=c8e692b164a3c06b16fd566530f17b16"
+    },
+    {
+        "name": "fanatics",
+        "faction": "nod",
+        "cost": 30,
+        "type": "barracks",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/0/0a/CNCRiv_Fanatic.png/150px-CNCRiv_Fanatic.png?version=20b14cd75f1cc7e7d0b9db9eccf7911b"
+    },
+    {
+        "name": "scavenger",
+        "faction": "nod",
+        "cost": 30,
+        "type": "barracks",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/0/06/CNCRiv_Scavenger.png/150px-CNCRiv_Scavenger.png?version=c4cd20b7287a42acc640078f4df530e9"
+    },
+    {
+        "name": "flame troopers",
+        "faction": "nod",
+        "cost": 40,
+        "type": "barracks",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/e/ee/CNCRiv_Flame_Troopers.png/150px-CNCRiv_Flame_Troopers.png?version=003ed26d86d211cce1f42d67e1bea03d"
+    },
+    {
+        "name": "scarabs",
+        "faction": "nod",
+        "cost": 40,
+        "type": "barracks",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/f/ff/CNCRiv_Scarabs.png/150px-CNCRiv_Scarabs.png?version=f94cb78ac1e7568d622f0159bf2db047"
+    },
+    {
+        "name": "chemical warriors",
+        "faction": "nod",
+        "cost": 60,
+        "type": "barracks",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/7/73/CNCRiv_Chemical_Warriors.png/150px-CNCRiv_Chemical_Warriors.png?version=b2291422cb42aa0308254c80d9673560"
+    },
+    {
+        "name": "mutant marauder",
+        "faction": "nod",
+        "cost": 60,
+        "type": "barracks",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/c/c7/CNCRiv_Mutant_Marauder.png/150px-CNCRiv_Mutant_Marauder.png?version=30a085e03d6d2e2350f9cdc1da03ed2e"
+    },
+    {
+        "name": "cyber wheels",
+        "faction": "nod",
+        "cost": 10,
+        "type": "warfactory",
+        "category": "core",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/4/48/CNCRiv_Cyberwheel.png/150px-CNCRiv_Cyberwheel.png?version=8847effad96d6a9f261faca23f6b9bca"
+    },
+    {
+        "name": "attack bikes",
+        "faction": "nod",
+        "cost": 30,
+        "type": "warfactory",
+        "category": "core",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/d/d3/CNCRiv_Attack_Bikes.png/150px-CNCRiv_Attack_Bikes.png?version=1025d25f0a1e4d69f9924f1e60f2d3cf"
+    },
+    {
+        "name": "buggy",
+        "faction": "nod",
+        "cost": 30,
+        "type": "warfactory",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/6/6f/CNCRiv_Buggy.png/150px-CNCRiv_Buggy.png?version=dadb8e4b2a5302a8b3559d1a07409b91"
+    },
+    {
+        "name": "chem buggy",
+        "faction": "nod",
+        "cost": 60,
+        "type": "warfactory",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/1/17/CNCRiv_Chem_Buggy.png/150px-CNCRiv_Chem_Buggy.png?version=b64f8423621e6c28e6bf8615839eff19"
+    },
+    {
+        "name": "scorpion tank",
+        "faction": "nod",
+        "cost": 70,
+        "type": "warfactory",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/f/f6/CNCRiv_Scorpion_Tank.png/150px-CNCRiv_Scorpion_Tank.png?version=9d8556f5bb71353adcab18849f767ef4"
+    },
+    {
+        "name": "tick tank",
+        "faction": "nod",
+        "cost": 70,
+        "type": "warfactory",
+        "category": "core",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/0/00/CNCRiv_Tick_Tank.png/150px-CNCRiv_Tick_Tank.png?version=3a1fb0d7d5f70b37476deea3d2803f08"
+    },
+    {
+        "name": "giga cannon",
+        "faction": "nod",
+        "cost": 80,
+        "type": "warfactory",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/e/ec/CNCRiv_Giga-Cannon.png/150px-CNCRiv_Giga-Cannon.png?version=8557465c66017e910c8825387773ca8b"
+    },
+    {
+        "name": "stealth tank",
+        "faction": "nod",
+        "cost": 100,
+        "type": "warfactory",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/f/f1/CNCRiv_Stealth_Tank.png/150px-CNCRiv_Stealth_Tank.png?version=b6d6d7f2fbccd0f45dcec26d9c3fe9b4"
+    },
+    {
+        "name": "laser drone",
+        "faction": "nod",
+        "cost": 20,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/1/19/CNCRiv_Laser_Drone.png/150px-CNCRiv_Laser_Drone.png?version=4c2264a1a288bacad27bfeba57b3eb24"
+    },
+    {
+        "name": "venom",
+        "faction": "nod",
+        "cost": 30,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/4/40/CNCRiv_Venom.png/150px-CNCRiv_Venom.png?version=0e9c28ce8b390a8e37ae5a5cc29c70e7"
+    },
+    {
+        "name": "shade",
+        "faction": "nod",
+        "cost": 40,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/0/09/CNCRiv_Shade.png/150px-CNCRiv_Shade.png?version=b210d4e81257ef42e03725a5b58b730b"
+    },
+    {
+        "name": "banshee",
+        "faction": "nod",
+        "cost": 60,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/d/d6/CNCRiv_Banshee.png/150px-CNCRiv_Banshee.png?version=35f89af7a3973afa114c437cec37d9c0"
+    },
+    {
+        "name": "inferno",
+        "faction": "nod",
+        "cost": 100,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/6/67/CNCRiv_Inferno.png/150px-CNCRiv_Inferno.png?version=dea3d7d3b995df0995b144b6a6687b89"
+    },
+    {
+        "name": "phantom",
+        "faction": "nod",
+        "cost": 100,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/8/8e/CNCRiv_Phantom.png/150px-CNCRiv_Phantom.png?version=dbab8b5251693f84a012034848340e88"
+    },
+    {
+        "name": "widowmaker",
+        "faction": "nod",
+        "cost": 80,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/5/58/CNCRiv_Widowmaker.png?version=647b1fe7d05e875305077d9fc8635497"
+    },
+    {
+        "name": "flame tank",
+        "faction": "nod",
+        "cost": 100,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/0/0c/CNCRiv_Flame_Tank.png?version=6e60c4ccbd85d7a343463290cf7d88dd"
+    },
+    {
+        "name": "centurion",
+        "faction": "nod",
+        "cost": 100,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/6/6d/CNCRiv_Centurion.png/150px-CNCRiv_Centurion.png?version=5f8f4682780e7f73b613b3981ec0372e"
+    },
+    {
+        "name": "confessors",
+        "faction": "nod",
+        "cost": 100,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/2/2a/CNCRiv_Confessor.png/150px-CNCRiv_Confessor.png?version=48ff4037c82f81518c63639f12e1b080"
+    },
+    {
+        "name": "artillery",
+        "faction": "nod",
+        "cost": 110,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/6/64/CNCRiv_Artillery.png/150px-CNCRiv_Artillery.png?version=63a8eea9393147126e8523417890c745"
+    },
+    {
+        "name": "basilisk",
+        "faction": "nod",
+        "cost": 120,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/6/68/CNCRiv_Basilisk.png/150px-CNCRiv_Basilisk.png?version=e1053c94c3bfd191c7b1838678f21b2c"
+    },
+    {
+        "name": "rockworm",
+        "faction": "nod",
+        "cost": 120,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/6/68/CNCRiv_Rockworm.png/150px-CNCRiv_Rockworm.png?version=7b3d1cc23e4a928dd2c88ec244ff5cf6"
+    },
+    {
+        "name": "cyborgs",
+        "faction": "nod",
+        "cost": 130,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/f/f4/CNCRiv_Cyborg.png/150px-CNCRiv_Cyborg.png?version=14b5bcf37fcc311a1f9f3b7a0486dec0"
+    },
+    {
+        "name": "avatar",
+        "faction": "nod",
+        "cost": 230,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/f/fc/CNCRiv_Avatar.png/150px-CNCRiv_Avatar.png?version=7bc706c60ba91adca30bfd6a4bb079c2"
+    },
+    {
+        "name": "seth",
+        "faction": "nod",
+        "cost": 70,
+        "type": "commander",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/4/4c/CNCRiv_Drill_Pod.png/150px-CNCRiv_Drill_Pod.png?version=ee0972bd128bf41492391247c1766209"
+    },
+    {
+        "name": "kane",
+        "faction": "nod",
+        "cost": 110,
+        "type": "commander",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/b/b8/CNCRiv_Obelisk_of_Light.png/150px-CNCRiv_Obelisk_of_Light.png?version=03cb8051eaa85e47dae8bb40c24cfd19"
+    },
+    {
+        "name": "jade",
+        "faction": "nod",
+        "cost": 80,
+        "type": "commander",
+        "category": "true",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/f/f8/CNCRiv_Catalyst_Missile.png/150px-CNCRiv_Catalyst_Missile.png?version=6ca8545708b6e28b2059791a8cd31ddc"
+    },
+    {
+        "name": "oxanna",
+        "faction": "nod",
+        "cost": 30,
+        "type": "commander",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/7/70/CNCRiv_Fanaticism.png/150px-CNCRiv_Fanaticism.png?version=2f9deed690a9ac4299e83108285a2265"
+    },
+    {
+        "name": "riflemen",
+        "faction": "gdi",
+        "cost": 10,
+        "type": "barracks",
+        "category": "core",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/2/20/CNCRiv_Riflemen.png/150px-CNCRiv_Riflemen.png?version=b1ce23c5115417994ae0f4a775c2ff59"
+    },
+    {
+        "name": "missile squad",
+        "faction": "gdi",
+        "cost": 20,
+        "type": "barracks",
+        "category": "core",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/7/79/CNCRiv_Missile_Squad.png/150px-CNCRiv_Missile_Squad.png?version=d54f05049a02ac1f162d0521c6783589"
+    },
+    {
+        "name": "mg squad",
+        "faction": "gdi",
+        "cost": 30,
+        "type": "barracks",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/0/0d/CNCRiv_MG_Squad.png/150px-CNCRiv_MG_Squad.png?version=022f4d88921b429854e62c2c89142c2f"
+    },
+    {
+        "name": "jump jet troopers",
+        "faction": "gdi",
+        "cost": 40,
+        "type": "barracks",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/0/0a/CNCRiv_Jump_Jet_Troopers.png/150px-CNCRiv_Jump_Jet_Troopers.png?version=baf6ce40dfb3bd522e96032b2c48abd4"
+    },
+    {
+        "name": "shockwave troopers",
+        "faction": "gdi",
+        "cost": 40,
+        "type": "barracks",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/5/55/CNCRiv_Shockwave_Troopers.png/150px-CNCRiv_Shockwave_Troopers.png?version=d936840058edca4cf3c9aab5bed5d9cf"
+    },
+    {
+        "name": "sniper team",
+        "faction": "gdi",
+        "cost": 50,
+        "type": "barracks",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/d/dc/CNCRiv_Sniper_Team.png/150px-CNCRiv_Sniper_Team.png?version=ca6d4ae247f08f6bbdb7c0b16b9a8978"
+    },
+    {
+        "name": "grenadiers",
+        "faction": "gdi",
+        "cost": 60,
+        "type": "barracks",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/c/c7/CNCRiv_Grenadier.png/150px-CNCRiv_Grenadier.png?version=03e20ca63543231ebcbe27aa740ca774"
+    },
+    {
+        "name": "war dogs",
+        "faction": "gdi",
+        "cost": 10,
+        "type": "warfactory",
+        "category": "core",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/b/bf/CNCRiv_War_Dogs.png/150px-CNCRiv_War_Dogs.png?version=8183a34367dbe32a1bd700a9d2e6765c"
+    },
+    {
+        "name": "rhino",
+        "faction": "gdi",
+        "cost": 30,
+        "type": "warfactory",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/4/41/CNCRiv_Rhino.png/150px-CNCRiv_Rhino.png?version=e4ad4252926cb0a5595a2a029164510e"
+    },
+    {
+        "name": "msv",
+        "faction": "gdi",
+        "cost": 40,
+        "type": "warfactory",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/c/c7/CNCRiv_M.S.V..png/150px-CNCRiv_M.S.V..png?version=2b5469ab3b43c1280fd9ccd3a8f01b26"
+    },
+    {
+        "name": "pitbull",
+        "faction": "gdi",
+        "cost": 40,
+        "type": "warfactory",
+        "category": "core",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/d/d9/CNCRiv_Pitbull.png/150px-CNCRiv_Pitbull.png?version=980f3a794d824d3a83e7f5f60187d39c"
+    },
+    {
+        "name": "shatterer",
+        "faction": "gdi",
+        "cost": 50,
+        "type": "warfactory",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/0/0c/CNCRiv_Shatterer.png/150px-CNCRiv_Shatterer.png?version=826bf18924f59c5e2d2f6b59c9b9b5db"
+    },
+    {
+        "name": "slingshot",
+        "faction": "gdi",
+        "cost": 50,
+        "type": "warfactory",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/1/1d/CNCRiv_Slingshot.png/150px-CNCRiv_Slingshot.png?version=0ef0eaacfacc7ae3bd27af6ea4c94ed7"
+    },
+    {
+        "name": "mlrs",
+        "faction": "gdi",
+        "cost": 70,
+        "type": "warfactory",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/1/1d/CNCRiv_M.L.R.S..png/150px-CNCRiv_M.L.R.S..png?version=fe0aef8332102705582f79daf2f4cd6d"
+    },
+    {
+        "name": "predator",
+        "faction": "gdi",
+        "cost": 70,
+        "type": "warfactory",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/5/58/CNCRiv_Predator_Tank.png/150px-CNCRiv_Predator_Tank.png?version=eb046977ab9ac29cecd37ba0df28fea5"
+    },
+    {
+        "name": "apc",
+        "faction": "gdi",
+        "cost": 80,
+        "type": "warfactory",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/d/db/CNCRiv_A.P.C..png/150px-CNCRiv_A.P.C..png?version=98a68741a20e44cef3d4b5cd361f70d6"
+    },
+    {
+        "name": "drone swarm",
+        "faction": "gdi",
+        "cost": 20,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/9/94/CNCRiv_Drone_Swarm.png/150px-CNCRiv_Drone_Swarm.png?version=8bc7dbdf639a84e459128fd0a0f3f894"
+    },
+    {
+        "name": "talon",
+        "faction": "gdi",
+        "cost": 30,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/0/06/CNCRiv_Talon.png/150px-CNCRiv_Talon.png?version=72096544c9ecd08405b6cbcb526b76ad"
+    },
+    {
+        "name": "mohawk",
+        "faction": "gdi",
+        "cost": 50,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/8/89/CNCRiv_Mohawk_Gunship.png/150px-CNCRiv_Mohawk_Gunship.png?version=b9c5ce8f5b3351bb3899cf9533b7fa9d"
+    },
+    {
+        "name": "razorback",
+        "faction": "gdi",
+        "cost": 60,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/4/45/CNCRiv_Razorback.png/150px-CNCRiv_Razorback.png?version=6b9fd9cf358fb91b30f3dc4c8b5ae91a"
+    },
+    {
+        "name": "orca",
+        "faction": "gdi",
+        "cost": 70,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/1/10/CNCRiv_Orca.png/150px-CNCRiv_Orca.png?version=51ec7921e457adb1e3452667c5bc5186"
+    },
+    {
+        "name": "hammerhead",
+        "faction": "gdi",
+        "cost": 90,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/d/d0/CNCRiv_Hammerhead.png/150px-CNCRiv_Hammerhead.png?version=781cb9bdb527ecad5168e044f7126eeb"
+    },
+    {
+        "name": "orca bomber",
+        "faction": "gdi",
+        "cost": 110,
+        "type": "airfield",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/d/d6/CNCRiv_Orca_Bomber.png/150px-CNCRiv_Orca_Bomber.png?version=854144fb077440a959dd97037ece7f94"
+    },
+    {
+        "name": "wolverine",
+        "faction": "gdi",
+        "cost": 80,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/0/0c/CNCRiv_Wolverine.png/150px-CNCRiv_Wolverine.png?version=a604fb2a956d001b5e04e6b122c85904"
+    },
+    {
+        "name": "disruptor",
+        "faction": "gdi",
+        "cost": 120,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/2/2a/CNCRiv_Disruptor.png/150px-CNCRiv_Disruptor.png?version=6af31d87035324700a2949aa22809812"
+    },
+    {
+        "name": "juggernaut",
+        "faction": "gdi",
+        "cost": 120,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/9/96/CNCRiv_Juggernaut.png/150px-CNCRiv_Juggernaut.png?version=553b3c7a5fc2ed8af6038658c548a2c3"
+    },
+    {
+        "name": "zone trooper",
+        "faction": "gdi",
+        "cost": 120,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/3/37/CNCRiv_Zone_Trooper.png/150px-CNCRiv_Zone_Trooper.png?version=35dfbff949a72c68e996da58632a4ce6"
+    },
+    {
+        "name": "kodiak",
+        "faction": "gdi",
+        "cost": 130,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/2/25/CNCRiv_Kodiak.png/150px-CNCRiv_Kodiak.png?version=77070e5ab1fbfbf78dd809a9c7081001"
+    },
+    {
+        "name": "sandstorm",
+        "faction": "gdi",
+        "cost": 130,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/f/fb/CNCRiv_Sandstorm.png/150px-CNCRiv_Sandstorm.png?version=bca305a3b9a0d76292a1c5308b4f44ad"
+    },
+    {
+        "name": "titan",
+        "faction": "gdi",
+        "cost": 130,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/2/2e/CNCRiv_Titan.png/150px-CNCRiv_Titan.png?version=13fdac2f7d2ecb8a12af44f29ccb7224"
+    },
+    {
+        "name": "mammoth tank",
+        "faction": "gdi",
+        "cost": 230,
+        "type": "tech",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/b/bf/CNCRiv_Mammoth_Tank.png/150px-CNCRiv_Mammoth_Tank.png?version=ab1dec5939d2582065e893e094d83a9c"
+    },
+    {
+        "name": "strongarm",
+        "faction": "gdi",
+        "cost": 40,
+        "type": "commander",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/b/b1/CNCRiv_Minigun_Turret.png/150px-CNCRiv_Minigun_Turret.png?version=71550f081cf5e5d7c5d6ae44770945d0"
+    },
+    {
+        "name": "dr liang",
+        "faction": "gdi",
+        "cost": 40,
+        "type": "commander",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/5/57/CNCRiv_Repair_Drone.png/150px-CNCRiv_Repair_Drone.png?version=af56b95c0490afc87e7394b4a1d307fc"
+    },
+    {
+        "name": "solomon",
+        "faction": "gdi",
+        "cost": 130,
+        "type": "commander",
+        "category": "flex",
+        "canshootup": true,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/7/7d/CNCRiv_Ion_Cannon.png/150px-CNCRiv_Ion_Cannon.png?version=f87081cc227ab4e96d08050c2905458f"
+    },
+    {
+        "name": "jackson",
+        "faction": "gdi",
+        "cost": 30,
+        "type": "commander",
+        "category": "flex",
+        "canshootup": false,
+        "img": "https://gamepedia.cursecdn.com/cnc_gamepedia_en/thumb/1/18/CNCRiv_Heroic_Charge.png/150px-CNCRiv_Heroic_Charge.png?version=c2ba904d26599410ee6b3293441ff548"
+    }
+]
