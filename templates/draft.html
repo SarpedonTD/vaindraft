@@ -47,6 +47,8 @@
     $(".navigation").addClass("team-left");
   {% elif role == '2' %}
     $(".navigation").addClass("team-right");
+  {% else %}
+    $(".navigation").addClass("team-spectator");
   {% end %}
 </script>
 {% end %}

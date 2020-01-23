@@ -78,15 +78,6 @@ class DraftState():
         return self.join_status
 
     def get_heroes(self):
-        # try:
-        #     filter = self.style[self.turn]['typeFilter']
-        # except:
-        #     filter = None
-        # if not filter:
-        #     heros = self.heroes
-        # if filter:
-        #     heros = [hero for hero in self.heroes if hero["type"] == filter]
-        # return heros
         return self.heroes
 
     def get_style(self):

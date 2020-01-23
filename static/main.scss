@@ -162,6 +162,14 @@ $team-right: #ff5945;
        fill: $team-left;
      }
    }
+   &.team-spectator:after {    
+    content: "SPECTATOR";
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    left: 50%;
+    font-weight: bold;
+  }
 }
 .navigation .container{
    padding-bottom:0;
@@ -387,9 +395,9 @@ textarea {
     }
 
     &.turn-indicator {
-      -moz-box-shadow: 0 0 12px $gray-300;
-      -webkit-box-shadow: 0 0 12px $gray-300;
-      box-shadow: 0 0 12px $gray-300;
+      -moz-box-shadow:0 0 0px 20px #bd362f;
+      -webkit-box-shadow:0 0 0px 20px #bd362f;
+      box-shadow:0 0 0px 20px #bd362f;
     }
 
     &.draft-team-left {

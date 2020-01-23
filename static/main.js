@@ -198,16 +198,13 @@ function hideFaction(side, ban) {
 
   if (faction != null) {
     var filterValue = "[data-faction != '" + faction + "']";
-    // alert(filterValue);
     var result = $("[data-faction]").filter(filterValue);
     result.hide();
   }
 }
 
 function showall() {
-  //alert($('[data-hero]'))
   $('[data-hero]').show();
-  // .css( 'display', 'none');
 }
 
 function hideFilter(draft_item) {

@@ -122,3 +122,5 @@ venv.bak/
 .vs/VSWorkspaceState.json
 .vs/Draft/v16/.suo
 .vs/Draft/v16/TestStore/0/000-0000.testlog
+node_modules/
+package-lock.json
